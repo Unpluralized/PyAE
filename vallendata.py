@@ -22,13 +22,6 @@ import sqlite3                      # reads the Vallen files as sqlite databases
 import numpy as np                  # for maths, fast processing &more
 import pandas as pd                 # for handling large dataframes
 import scipy as sci
-from numba import jit
-from threading import Thread
-import matplotlib.pyplot as plt
-from matplotlib import style
-from matplotlib import rcParams
-style.use('ggplot')
-rcParams.update({'font.size': 16})
 
 
 def read_pridb(path_to_pridb_file, **kwargs):
