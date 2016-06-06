@@ -21,4 +21,4 @@ Individual filters can also be called, passing filter parameters as arguments.
 
 
 ### Dependencies
-Numpy, scipy, pandas, sqlite3, progress, matplotlib, numba
+Numpy, scipy, pandas, sqlite3, progress
