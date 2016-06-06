@@ -17,7 +17,7 @@ An assumption of 2048 samples at 2.0 MHz is hard-coded in this function.
 ### pridb_filters.py
 Set of filtering functions. pridb_filters.apply_filters(DataFrame df, str test_id) can be called to apply a predetermined set of filters, retrieving filter parameters from a config file: pridb_filter_config.ini, where each section must represent a test_id.
 
-Individual filters can also be called, simply passing filter parameters as arguments.
+Individual filters can also be called, passing filter parameters as arguments.
 
 
 ### Dependencies
